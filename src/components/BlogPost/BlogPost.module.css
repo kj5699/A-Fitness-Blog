@@ -1,0 +1,68 @@
+.BlogHeader{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Category{
+    display: block;
+    font-size: 18px;
+    padding: 10px 0;
+
+}
+
+.Title{
+    text-transform: capitalize;
+    font-weight: 400;
+    display:block;
+    letter-spacing: 0.5px;
+    font-size: 42px;
+    margin:0
+
+}
+
+.PostDetail{
+    font-style: italic;
+    font-size: 24px;
+    padding: 10px 0;
+    display : block;
+    
+}
+.PostImageContainer{
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding: 0 20px 20px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.PostImageContainer img {
+    margin: auto;
+    width:70%;
+    max-height:80%;
+}
+
+.PostContent{
+    display: flex;
+    flex-flow: column;
+    margin:10px;
+    padding: 100px 20px;
+    padding-top: 20px;
+}
+
+.PostContent h3{
+    margin :auto;
+    font-weight: 500;
+    color:#333;
+    
+}
+
+.PostContent p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #3c3c3c;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: justify;
+
+}

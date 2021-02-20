@@ -1,0 +1,11 @@
+.SMLinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin:0
+}
+.SMLinks ul li {
+    display: block;
+    padding: 0 10px;
+
+}

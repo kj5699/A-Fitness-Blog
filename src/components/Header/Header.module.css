@@ -1,0 +1,20 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    
+
+}
+.HeaderMenu a{
+    display : inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #565673;
+    font-size: 18px;
+    letter-spacing: 1.2;
+    text-transform: uppercase;
+}
+
+.HeaderMenu a:hover{
+    color: #519ea0;
+}

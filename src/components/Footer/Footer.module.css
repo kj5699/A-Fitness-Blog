@@ -1,0 +1,71 @@
+.Footer{
+    background-color: rgb(207, 207, 207);
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    border-top :1px solid #6c6c6c;
+    
+    padding-top: 20px;
+    
+
+}
+.FooterForm{
+    width:50% ;
+    display : flex;
+    margin: auto;
+    
+
+}
+
+.FooterForm form{
+    display : flex;
+    flex-flow: column;
+    
+    align-items: center;
+    margin: auto;
+    color: #565673;
+    letter-spacing: 1.2;
+    text-transform: uppercase;
+}
+.FooterForm form .button{
+    margin :10px 0;
+
+}
+
+
+
+textarea {
+	width: 500px;
+	height: 200px;
+	border: 1px solid #6c6c6c;
+    background-color: #f8f8f8;
+	padding: 5px;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+	
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+.FooterLinks{
+    width:50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin:auto;
+    
+}
+
+.FooterLinks ul{
+    
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin:0
+}
+.FooterLinks ul li {
+    display: block;
+    padding:  10px 0;
+
+}

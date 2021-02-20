@@ -1,0 +1,53 @@
+.ReadMoreButton{
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    }
+.ReadMoreButton:hover{
+    background-color:#4095c6;
+}
+@media all and (max-width:30em){
+     .ReadMoreButton{
+    display:block;
+    margin:0.2em auto;
+    }
+}
+
+.SendButton{
+display:inline-block;
+padding:0.5em 3em;
+border:0.16em solid #777777;
+background-color: #f8f8f8;
+margin:0 0.3em 0.3em 0;
+box-sizing: border-box;
+text-decoration:none;
+text-transform:uppercase;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#6c6c6c;;
+text-align:center;
+transition: all 0.15s;
+}
+.SendButton:hover{
+    color:#050505;
+    border-color:#9c9c9c;
+}
+.SendButton:active{
+color:#BBBBBB;
+border-color:#BBBBBB;
+}
+@media all and (max-width:30em){
+     .SendButton{
+    display:block;
+    margin:0.4em auto;
+    }
+}
